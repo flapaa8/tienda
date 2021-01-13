@@ -1,6 +1,5 @@
-var edad=prompt("Ingrese su edad");
-if(parseInt(edad)>=18){
-    alert("Puedes tomar bebidas alcoholicas")
-}else{
-    alert("No puedes tomar bebidas alcoholicas")
+var nombre=prompt("Ingrese un nombre ");
+var num=prompt("Ingrese el numero de veces que quiere repetir su nombre");
+for(let i=1;i<=parseInt(num);i++){
+console.log(i+" "+nombre);
 }
