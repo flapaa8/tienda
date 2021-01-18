@@ -1,5 +1,8 @@
 var nombre=prompt("Ingrese un nombre ");
-var num=prompt("Ingrese el numero de veces que quiere repetir su nombre");
-for(let i=1;i<=parseInt(num);i++){
-console.log(i+" "+nombre);
+var apellido=prompt("Ingrese su apellido");
+var edad=prompt("Ingrese su edad");
+
+function hola(n,a,e){
+    return "Bienvenido a nuestro sitio web "+n+" "+a+" y tienes "+e+" años.";
 }
+alert(hola(nombre,apellido,edad));
